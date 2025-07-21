@@ -10,7 +10,7 @@ const Signup = (props) => {
     e.preventDefault()
     const {name, email, password} = credentials;
     try {
-      const response = await fetch("http://localhost:3000/api/auth/Createuser",{
+      const response = await fetch("https://mynotes-app-60a3.onrender.com/api/auth/Createuser",{
         method: 'POST',
         headers: {
           'Content-type': "application/json",

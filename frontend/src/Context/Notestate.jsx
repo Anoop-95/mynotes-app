@@ -5,7 +5,7 @@ import { useState } from "react";
 const Notestate = (props)=>{
   
 
-    const host ="http://localhost:3000"
+    const host ="https://mynotes-app-60a3.onrender.com"
     const notesInitializer = []  
     const [notes, setNotes] = useState(notesInitializer)
 
