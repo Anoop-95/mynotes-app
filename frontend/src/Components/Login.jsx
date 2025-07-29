@@ -33,11 +33,11 @@ const Login=(props)=> {
 
       }
       else{
-        toast.error(json.error);
+        toast.error(`${json.error}. Please Register if not registered yet.`);
       }
 
     }catch(err){
-      console.error("Error:", err)
+      toast.error("Something went wrong. Please try again later.");
     }
     
       
